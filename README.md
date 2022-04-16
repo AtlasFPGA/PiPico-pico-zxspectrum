@@ -2,12 +2,14 @@
 Instruction for compile pico-zxspectrum from fruit-bat for atlasfpga with PiPico-fpga-relocator
 
 You need main board AtlasFPGA, that you can check at:
+<br />
 https://github.com/theexperimentgroup/Atlas-FPGA
 
 After you need the PiPico-fpga-Relocator for can plug a pipico cpu:
-https://github.com/atlasFPGA/piPico-Fpga-Relocator/
+<br />
+https://github.com/atlasFPGA/piPico-Fpga-Relocator
 
-I compile with a Debian version 9.13. Maybe you need install some tools like git version as Pipico SDK need.
+I compiled with a Debian version 9.13. Maybe you need install some tools like git version as Pipico SDK need.
 
 Code to run:
 ```
@@ -50,7 +52,15 @@ make -j4 ZxSpectrum
 
 cp apps/zxspectrum/ZxSpectrum.uf2 /media/pi/RPI-RP2/
 ```
-
+<br />
 For do cp maybe you need pipico at download mode, press boot and without release press/release reset on relocator board.
+<br />
+I left the release working on atlas but you will need a usb hub for plug usb keyboard, and at sd card its very important create folder as pipico-zxspectrum need:
+
+| Folder | Contents |
+| ------ | -------- |
+| zxspectrum/snapshots | Put your .z80 snapshot files in here. |
+| zxspectrum/quicksaves | Folder for quick saves. |
+| zxspectrum/tapes | Folder for .tap tape files. |
 
 Thats all!
