@@ -1,11 +1,15 @@
 # PiPico-pico-zxspectrum
-Instruction for compile pico-zxspectrum from fruit-bat for atlasfpga with PiPico-fpga-relocator
+Instruction for compile pico-zxspectrum from fruit-bat for atlasfpga with PiPico-fpga-relocator.
+
+Main project:
+<br />
+https://github.com/fruit-bat/pico-zxspectrum
 
 You need main board AtlasFPGA, that you can check at:
 <br />
 https://github.com/theexperimentgroup/Atlas-FPGA
 
-After you need the PiPico-fpga-Relocator for can plug a pipico cpu:
+After you need the PiPico-fpga-Relocator for can plug a pipico:
 <br />
 https://github.com/atlasFPGA/piPico-Fpga-Relocator
 
