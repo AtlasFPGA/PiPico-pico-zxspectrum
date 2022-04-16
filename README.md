@@ -9,7 +9,7 @@ You need main board AtlasFPGA, that you can check at:
 <br />
 https://github.com/theexperimentgroup/Atlas-FPGA
 
-After you need the PiPico-fpga-Relocator for can plug a pipico:
+Also you need the PiPico-fpga-Relocator for can plug a pipico:
 <br />
 https://github.com/atlasFPGA/piPico-Fpga-Relocator
 
